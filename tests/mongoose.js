@@ -33,8 +33,8 @@ describe("Player Characters API", function() {
     })
 
     this.beforeEach("Test Data", async function(){
-        // console.log(pcModel.delete({}))
-        await pcModel.deleteAll({})
+        // console.log(pcModel)
+        await pcModel.remove({})
         await pcModel.create(TestPc)
     })
 

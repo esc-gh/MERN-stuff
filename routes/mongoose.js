@@ -55,5 +55,5 @@ router.delete("/deleteById/:id", (req, res, next) => {
 })
 
 
-
 module.exports = router;
+module.exports = pcModel;

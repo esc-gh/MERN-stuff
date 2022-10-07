@@ -20,7 +20,7 @@ const testPc = {
     id: 1
 }
 
-describe("Chai Demo", function(){
+describe("pcs.js Tests", function(){
 
     it("Expect", function(){
         chai.expect(testPc.name).to.equal("Roweena")
