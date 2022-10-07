@@ -1,0 +1,25 @@
+{
+  "name": "player_characters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
